@@ -9,6 +9,9 @@ module.exports = {
 	},
 	version,
 	webpackConfig: {
+		devServer: {
+			disableHostCheck: true
+		},
 		module: {
 			rules: [
 				{
