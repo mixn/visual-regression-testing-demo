@@ -18,7 +18,8 @@
   },
   "scripts": {
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "build": "styleguidist build"
   },
   "dependencies": {
     "dog-names": "^1.0.2",
