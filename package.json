@@ -18,6 +18,7 @@
   },
   "scripts": {
     "styleguide": "styleguidist server",
+    "start": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "build": "styleguidist build"
   },
