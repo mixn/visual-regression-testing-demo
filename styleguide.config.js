@@ -2,6 +2,7 @@ const { version } = require('./package');
 
 module.exports = {
 	components: 'src/components/**/[A-Z]*.js',
+	ignore: ['**/components/**/__test__/*.percy.js'],
 	defaultExample: true,
 	styleguideDir: 'public',
 	ribbon: {
