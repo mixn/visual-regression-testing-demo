@@ -1,16 +1,11 @@
-# React Styleguidist basic example style guide
+![](./static/header.png)
 
-See [deployed version](http://react-styleguidist.js.org/).
+A small demo 💻 to complement my “*Visual Regression Testing: The Ever Forgotten*” talk held at the [Munich Frontend Developers MeetUp](https://www.meetup.com/Munich-Frontend-Developers/events/256146257/).
 
-![](https://d3vv6lp55qjaqc.cloudfront.net/items/0U313M3L0p120g2Y1y3J/Image%202016-04-12%20at%207.25.03%20PM.png)
+Although the tooling possibilities are almost endless and some setups suit certain scenarios/teams better than others, this demo uses:
 
-How to start locally:
-
-```
-git clone https://github.com/styleguidist/react-styleguidist.git
-cd react-styleguidist/examples/basic
-npm install
-npx styleguidist server
-```
-
-Then open [http://localhost:6060](http://localhost:6060) in your browser.
+- 🐙 [**React Styleguidist**](https://github.com/styleguidist/react-styleguidist) as a baseline
+- 🦔 [**Percy**](http://percy.io/) for visual testing
+	- [**react-percy**](https://github.com/percy/react-percy) for the actual tests
+- ▲ [**now**](https://zeit.co/now) for instant deployments
+- 👷‍ [**Travis CI**](https://travis-ci.org/) for CI

@@ -19,9 +19,9 @@
   "scripts": {
     "styleguide": "styleguidist server",
     "start": "styleguidist server",
-		"build": "styleguidist build",
-		"percy": "react-percy",
-		"test": "react-percy"
+    "build": "styleguidist build",
+    "percy": "react-percy",
+    "test": "react-percy"
   },
   "dependencies": {
     "dog-names": "^1.0.2",
