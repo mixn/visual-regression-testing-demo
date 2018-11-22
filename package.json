@@ -1,16 +1,16 @@
 {
-  "name": "react-styleguidist-example-basic",
-  "description": "React styleguidist basic example",
+  "name": "visual-regression-testing-the-ever-forgotten-demo",
+  "description": "Demo for my “Visual Regression Testing: The Ever Forgotten” talk. Integration example with React Styleguidist, Percy, Now by Zeit & Travis CI.",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/styleguidist/react-styleguidist",
+  "homepage": "https://github.com/mixn/visual-regression-testing-the-ever-forgotten-demo",
   "author": {
-    "name": "Artem Sapegin",
-    "url": "http://sapegin.me/"
+    "name": "Miloš Sutanovac, @mixn",
+    "url": "https://mixn.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/styleguidist/react-styleguidist.git"
+    "url": "git://github.com/mixn/visual-regression-testing-the-ever-forgotten-demo.git"
   },
   "license": "MIT",
   "engines": {
