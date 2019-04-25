@@ -26,8 +26,8 @@ button {
   background-color: #ffffff;
   cursor: pointer;
   font-size: 15pt;
-  padding: 3px 10px;
-  margin: 10px;
+  padding: 6px 10px;
+	margin: 10px;
 }
 button.primary {
 	background: #0074D9;
