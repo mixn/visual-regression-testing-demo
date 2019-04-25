@@ -1,48 +1,57 @@
 {
-  "name": "visual-regression-testing-demo",
-  "description": "Demo for my “Visual Regression Testing: Regressions, Obsessions & Dirty Confessions” talk. Integration example with React Styleguidist, Percy, Now by Zeit & Travis CI.",
-  "version": "1.0.0",
+  "name": "foobar",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mixn/visual-regression-testing-demo",
-  "author": {
-    "name": "Miloš Sutanovac, @mixn",
-    "url": "https://mixn.io"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mixn/visual-regression-testing-demo.git"
-  },
-  "license": "MIT",
-  "engines": {
-    "node": ">=4"
-  },
   "scripts": {
-    "styleguide": "styleguidist server",
-    "start": "styleguidist server",
-    "build": "styleguidist build",
-    "percy": "react-percy",
-    "test": "react-percy"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
+    "storybook:build": "vue-cli-service storybook:build -c config/storybook",
+    "snapshot": "yarn storybook:build && percy-storybook --widths=320,1280",
+    "test": "yarn snapshot"
   },
   "dependencies": {
-    "dog-names": "^1.0.2",
-    "lodash": "^4.17.5",
-    "prop-types": "^15.6.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-styleguidist": "^7.1.0"
+    "@percy/storybook": "^3.0.2",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@percy/react": "^0.4.6",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
-    "style-loader": "^0.21.0",
-    "url-loader": "^0.6.2",
-    "webpack": "^4.16.1"
-  }
+    "@storybook/addon-actions": "^4.1.0 || ^5.0.0",
+    "@storybook/addon-knobs": "^4.1.0 || ^5.0.0",
+    "@storybook/addon-links": "^4.1.0 || ^5.0.0",
+    "@storybook/addon-notes": "^4.1.0 || ^5.0.0",
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-storybook": "^0.6.1",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
