@@ -26,11 +26,11 @@ button {
   background-color: #ffffff;
   cursor: pointer;
   font-size: 15pt;
-  padding: 6px 10px;
+  padding: 10px 10px;
 	margin: 10px;
 }
 button.primary {
-	background: #0074D9;
+	background: yellow;
 	border-color: #001f3f;
 	color: white;
 }
