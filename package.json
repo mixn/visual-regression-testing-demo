@@ -1,16 +1,16 @@
 {
-  "name": "visual-regression-testing-the-ever-forgotten-demo",
-  "description": "Demo for my “Visual Regression Testing: The Ever Forgotten” talk. Integration example with React Styleguidist, Percy, Now by Zeit & Travis CI.",
+  "name": "visual-regression-testing-demo",
+  "description": "Demo for my “Visual Regression Testing: Regressions, Obsessions & Dirty Confessions” talk. Integration example with React Styleguidist, Percy, Now by Zeit & Travis CI.",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/mixn/visual-regression-testing-the-ever-forgotten-demo",
+  "homepage": "https://github.com/mixn/visual-regression-testing-demo",
   "author": {
     "name": "Miloš Sutanovac, @mixn",
     "url": "https://mixn.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mixn/visual-regression-testing-the-ever-forgotten-demo.git"
+    "url": "git://github.com/mixn/visual-regression-testing-demo.git"
   },
   "license": "MIT",
   "engines": {

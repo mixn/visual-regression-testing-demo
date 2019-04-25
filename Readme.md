@@ -2,7 +2,7 @@
 
 ## 🏄‍
 
-A small demo 💻 to complement my “*Visual Regression Testing: The Ever Forgotten*” talk held at the [Munich Frontend Developers MeetUp](https://www.meetup.com/Munich-Frontend-Developers/events/256146257/).
+A small demo 💻 to complement my “*Visual Regression Testing: Regressions, Obsessions & Dirty Confessions*” talk.
 
 ### Tooling
 
